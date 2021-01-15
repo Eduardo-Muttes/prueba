@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prueba Eduardo Muttes</title>
+    <!--Slick CSS-->
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body onload="cargarDepartamentos()">
+
+    <header>
+        <span class="titulo_landing">Landing Page </span> 
+        <span class="titulo_conectado">Seguí conectado <span class="icono">f</span></span>
+        
+    </header>
+    <!--Slider Slick-->
+    <section class="slide_show">
+        <div class="slick">
+            <img src="img/product1.png" alt="product1">
+            <img src="img/product2.png" alt="product2">
+            <img src="img/product3.png" alt="product3">
+
+        </div>
+    </section>
+        
+    
+
+    <div class="container">
+
+        <article>
+            <h2>Últimos Artículos</h2>
+            
+            <section class="ultimos_articulos">
+                
+                <div class="articulo1">
+                    <img class="articulo_img" src="img/gris.png" alt="articulo 1">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugiat reiciendis odit at quisquam error necessitatibus nulla, ratione perferendis ad!</p>
+                    
+                    
+                </div>    
+                <div class="articulo2">
+                    <img class="articulo_img" src="img/gris.png" alt="articulo 2">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugiat reiciendis odit at quisquam error necessitatibus nulla, ratione perferendis ad!</p>
+                    
+                </div>
+                <div class="articulo3">
+                    <img class="articulo_img" src="img/gris.png" alt="articulo 3">       
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugiat reiciendis odit at quisquam error necessitatibus nulla, ratione perferendis ad!</p>
+                    
+                </div>
+                <div class="articulo4">
+                    <img class="articulo_img" src="img/gris.png" alt="articulo 4">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugiat reiciendis odit at quisquam error necessitatibus nulla, ratione perferendis ad!</p>        
+                </div>
+                <div class="articulo5">
+                    <img class="articulo_img" src="img/gris.png" alt="articulo 5">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugiat reiciendis odit at quisquam error necessitatibus nulla, ratione perferendis ad!</p>
+                    
+                    
+                </div>    
+                <div class="articulo6">
+                    <img class="articulo_img" src="img/gris.png" alt="articulo 6">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugiat reiciendis odit at quisquam error necessitatibus nulla, ratione perferendis ad!</p>
+                    
+                </div>
+                <div class="articulo7">
+                    <img class="articulo_img" src="img/gris.png" alt="articulo 7">       
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugiat reiciendis odit at quisquam error necessitatibus nulla, ratione perferendis ad!</p>
+                    
+                </div>
+                <div class="articulo8">
+                    <img class="articulo_img" src="img/gris.png" alt="articulo 8">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugiat reiciendis odit at quisquam error necessitatibus nulla, ratione perferendis ad!</p>        
+                </div>
+            </section>
+        </article>
+
+    </div> <!--Fin Container-->
+    
+    <footer>
+        <h1 class="form_title">Formulario</h1>
+        <hr>
+        
+        <!--Formulario-->
+        <form action="" class="formulario" id="formulario">
+
+            <!--Grupo Nombre-->
+            <div class="formulario_grupo" id="grupo_nombre">
+                <label for="nombre" class="formulario_label"></label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="nombre" id="nombre" placeholder="NOMBRE">
+                    <span class="formulario_validacion">X</span>
+                </div>
+                <p class="formulario_error">El nombre introducio no es correcto</p>
+            </div>
+
+            <!--Grupo Apellido-->
+            <div class="formulario_grupo" id="grupo_apellido">
+                <label for="apellido" class="formulario_label"></label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="apellido" id="apellido" placeholder="APELLIDO">
+                    <span class="formulario_validacion">X</span>
+                </div>
+                <p class="formulario_error">El apellido introducio no es correcto</p>
+            </div>
+
+            <!--Grupo Email-->
+            <div class="formulario_grupo" id="grupo_email" >
+                <label for="email" class="formulario_label"></label>
+                <div class="formulario_grupo_input">
+                    <input type="email" class="formulario_input" name="email" id="email" placeholder="email">
+                    <span class="formulario_validacion">X</span>
+                </div>
+                <p class="formulario_error">El email introducio no es correcto</p>
+            </div>
+
+            <!--Grupo Departamento-->
+            <div class="formulario_grupo" id="grupo_departamento">
+                <label for="departamento" class="formulario_label"></label>
+                <div class="formulario_grupo_input">
+                    <select name="departamento" id="departamento" class="formulario_input" onchange="cargarLocalidad(this.value)">
+                        <option disabled selected>Departamento</option>
+                    </select>
+                    <span class="formulario_validacion">X</span>
+                </div>
+                <p class="formulario_error">El departamento elegido no es correcto</p>
+            </div>
+
+            <!--Grupo Localidad-->
+            <div class="formulario_grupo" id="grupo_localidad">
+                <label for="localidad" class="formulario_label"></label>
+                <div class="formulario_grupo_input">
+                    <select name="localidad" id="localidad" class="formulario_input">
+                        <option disabled selected>Localidad</option>
+                        <option></option>
+                    </select>
+                    <span class="formulario_validacion">X</span>
+                </div>
+                <p class="formulario_error">La localidad elegida no es correcta</p>
+            </div>
+
+             <!--Grupo C.I-->
+             <div class="formulario_grupo"  id="grupo_ci">
+                <label for="ci" class="formulario_label"></label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="ci" id="ci" placeholder="C.I" onblur="validarCedula(ci)">
+                    <span class="formulario_validacion">X</span>
+                </div>
+                <p class="formulario_error">El C.I introducio no es correcto</p>
+            </div>
+
+             <!--Grupo Terminos y Condiciones-->
+             <div class="formulario_grupo formulario_grupo_terminos" id="grupo_terminos">
+                 <br><br>
+                <label class="formulario_label"><input type="checkbox" class="formulario_checkbox" name="terminos" id="terminos">Acepto los Terminos y Condiciones</label>
+                <p class="formulario_error">Debes Aceptar los terminos y condiciones</p>
+            </div>
+            
+            <div class="formulario_mensaje" id="formulario_mensaje">
+                <p>Error, rellena el formulario  correctamente.</p>
+            </div>
+            <!--Grupo Boton Enviar-->
+            <div class="formulario_grupo formulario_btn_enviar">
+                <button type="submit" class="formulario_btn">ENVIAR</button>
+                <p class="formulario_mensaje_exito" id="formulario_mensaje_exito">El formulario a sido enviado correctamente</p>
+            </div>
+
+        </form> <!--Fin del Formulario-->
+       
+    </footer>
+    
+    
+    
+				
+   		
+    <!--JavaScript-->
+    <script src="js/formulario.js"></script>
+    <script src="js/logica.js"></script>
+    <script src="js/datos.js"></script>
+
+    <!--Slick JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <script src="js/slick.js"></script>
+
+    
+</body>
+</html>
